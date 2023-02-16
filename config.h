@@ -87,7 +87,7 @@ static const keymap_t keys[] = {
 	{ ControlMask,  XK_x,             g_prefix_external,    None },
 	{ 0,            XK_g,             g_first,              None },
 	{ 0,            XK_G,             g_n_or_last,          None },
-	{ 0,            XK_r,             g_reload_image,       None },
+	{ ControlMask,  XK_r,             g_reload_image,       None },
 	{ 0,            XK_D,             g_remove_image,       None },
 	{ ControlMask,  XK_h,             g_scroll_screen,      DIR_LEFT },
 	{ ControlMask,  XK_Left,          g_scroll_screen,      DIR_LEFT },
@@ -119,7 +119,7 @@ static const keymap_t keys[] = {
 	{ 0,            XK_Up,            t_move_sel,           DIR_UP },
 	{ 0,            XK_l,             t_move_sel,           DIR_RIGHT },
 	{ 0,            XK_Right,         t_move_sel,           DIR_RIGHT },
-	{ 0,            XK_R,             t_reload_all,         None },
+	{ ControlMask,  XK_R,             t_reload_all,         None },
 
 	{ 0,            XK_n,             i_navigate,           +1 },
 	{ 0,            XK_n,             i_scroll_to_edge,     DIR_LEFT | DIR_UP },
@@ -164,8 +164,8 @@ static const keymap_t keys[] = {
 	#endif // SCALE_FILL_MODE_PATCH
 	{ 0,            XK_e,             i_fit_to_win,         SCALE_WIDTH },
 	{ 0,            XK_E,             i_fit_to_win,         SCALE_HEIGHT },
-	{ 0,            XK_less,          i_rotate,             DEGREE_270 },
-	{ 0,            XK_greater,       i_rotate,             DEGREE_90 },
+	{ 0,            XK_R,             i_rotate,             DEGREE_270 },
+	{ 0,            XK_r,             i_rotate,             DEGREE_90 },
 	{ 0,            XK_question,      i_rotate,             DEGREE_180 },
 	{ 0,            XK_bar,           i_flip,               FLIP_HORIZONTAL },
 	{ 0,            XK_underscore,    i_flip,               FLIP_VERTICAL },

@@ -79,7 +79,7 @@
 /* Adds the ability to cycle when viewing multiple images.
  * https://github.com/i-tsvetkov/sxiv-patches
  */
-#define IMAGE_MODE_CYCLE_PATCH 1
+#define IMAGE_MODE_CYCLE_PATCH 0
 
 /* Add support for remote links with libcurl
  *
