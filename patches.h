@@ -109,7 +109,7 @@
 /* Allows for the same keys used to scroll to be re-used for navigation if the image is not zoomed.
  * https://github.com/muennich/sxiv/pull/368
  */
-#define NAVIGATE_IF_NOT_SCROLL_PATCH 0
+#define NAVIGATE_IF_NOT_SCROLL_PATCH 1
 
 /* Adds fill scale mode.
  * https://github.com/muennich/sxiv/pull/446
